@@ -1,0 +1,4 @@
+diagnosis_id,code,description,category
+1,D001,Type 2 Diabetes,Chronic
+2,D002,Hypertension,Chronic
+3,D003,Coronary Artery Disease,Chronic
