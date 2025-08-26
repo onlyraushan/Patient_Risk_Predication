@@ -1,4 +1,0 @@
-risk_id,patient_id,hospital_id,diagnosis_id,risk_score,prediction_date
-1,1,1,1,85.5,2025-08-01
-2,2,2,2,72.3,2025-08-02
-3,3,3,3,90.1,2025-08-03
