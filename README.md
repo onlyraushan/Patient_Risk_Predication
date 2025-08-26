@@ -7,7 +7,6 @@ Step-by-Step Project Plan
 •	Goal: Predict patients at high risk of chronic diseases.
 •	Data Sources: EMR (Electronic Medical Records), lab test results, and unstructured clinical notes.
 •	Outcome: A risk score or classification (e.g., high-risk vs. low-risk).
-________________________________________
 2. Data Collection & Exploration
 •	Structured Data: EMR tables (patient demographics, diagnosis codes, lab results).
 •	Unstructured Data: Doctor's notes, discharge summaries (to be stored in MongoDB).
@@ -15,7 +14,6 @@ ________________________________________
 •	Load structured data into PostgreSQL.
 •	Load unstructured notes into MongoDB.
 •	Explore data for missing values, outliers, and distributions.
-________________________________________
 3. Data Modelling (Star Schema)
 •	Fact Table: fact_patient_risk
 •	Dimension Tables:
@@ -25,7 +23,6 @@ ________________________________________
 •	Action:
 •	Design schema in PostgreSQL.
 •	Use foreign keys to link dimensions to the fact table.
-________________________________________
 4. Data Preprocessing with Spark
 •	Use Spark (Scala or Python) to:
 •	Clean and normalize lab test results.
